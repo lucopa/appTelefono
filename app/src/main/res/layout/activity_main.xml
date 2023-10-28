@@ -42,14 +42,15 @@
         android:id="@+id/otro"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:text="OTRO"
+        android:backgroundTint="#8BC34A"
+        android:text="YOUTUBE"
+        app:icon="@android:drawable/ic_media_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
-        android:backgroundTint="#8BC34A"/>
+        app:layout_constraintVertical_bias="0.75" />
 
     <Button
         android:id="@+id/url"
@@ -69,7 +70,7 @@
         android:id="@+id/imageView4"
         android:layout_width="281dp"
         android:layout_height="190dp"
-        app:srcCompat="@drawable/pngtree_calling_business_people_image_1232635"
+        app:srcCompat="@drawable/hombre_llamando"
         tools:layout_editor_absoluteX="87dp"
         tools:layout_editor_absoluteY="42dp"
         app:layout_constraintBottom_toBottomOf="parent"
