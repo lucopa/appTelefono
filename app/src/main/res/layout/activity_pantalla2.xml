@@ -5,6 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Pantalla2"
-    android:background="#7974CBF3">
+    android:background="#3CFF9800">
+
+    <ImageButton
+        android:id="@+id/boton_llamada"
+        android:layout_width="363dp"
+        android:layout_height="338dp"
+        android:src="@drawable/telefono"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

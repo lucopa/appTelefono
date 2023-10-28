@@ -25,7 +25,7 @@
         android:backgroundTint="#E91E63"/>
 
     <Button
-        android:id="@+id/alarma"
+        android:id="@+id/botonAlarma"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="ALARMA"
@@ -39,7 +39,7 @@
         android:backgroundTint="#03A9F4"/>
 
     <Button
-        android:id="@+id/url"
+        android:id="@+id/otro"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="OTRO"
@@ -52,7 +52,7 @@
         android:backgroundTint="#8BC34A"/>
 
     <Button
-        android:id="@+id/otro"
+        android:id="@+id/url"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="URL"
